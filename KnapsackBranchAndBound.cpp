@@ -2,8 +2,10 @@
 // Name        : KnapsackBranchAndBound.cpp
 // Author      : Carlos A. Alfaro
 // Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Copyright   : 
+// Description : This is an implementation of the Knaspsack Problem
+//               max sum_{item in items} value(item)
+//               s.t. sum_{item in items} weight(item) <= capacity
 //============================================================================
 
 #include <iostream>
