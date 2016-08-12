@@ -615,7 +615,7 @@ void solve(int n, int i){
 
 int main() {
 
-	solve(19,0);
+	solve(1,2);
 
 	return 0;
 }
