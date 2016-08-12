@@ -87,12 +87,24 @@ public:
 
 		if (fin.is_open()) {
 
-			cout << "Cargando archivo ... ";
+			cout << "Loading file ... ";
+			
+			/*
+			
+			The format of the file is:
+			
+			N K  // where N is the number of items and K is the capacity of the Knapsack
+			V_0 W_0 // where V_i is the value of item i and W_i is the weight of item i
+			.   .
+			.   .
+			V_N W_N 
+			
+			*/
 
 			string cadena;
 
 			///////////////////////////////////////////////////// Encabezados /////////////////////////////////////////////////////
-
+			
 			getline(fin, cadena);
 
 			int inicio = 0, final = cadena.find(" ", inicio);
